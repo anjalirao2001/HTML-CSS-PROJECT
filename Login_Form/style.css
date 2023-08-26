@@ -1,0 +1,129 @@
+body{
+    background: #46b7dd;
+    font-family: 'Trebuchet MS';
+}
+
+.main{
+    width: 800px; ;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
+    border: 3px solid black; /*need to remove after */
+}
+
+.main .left{
+    width: 50%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    background: rgb(112, 82, 139);
+    position: relative;
+    /* border: 2px solid black; //need to remove after  */
+
+}
+
+.main .left h1{
+    margin-top: 100px;
+}
+
+.left form input{
+    text-align: center;
+    width: 70%;
+    height: 35px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 25px;
+}
+
+.left form input:focus{
+    outline: none;
+}
+
+.left form input[type="submit"]{
+    background: rgb(42, 42, 103);
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.left form input[type="submit"]:hover{
+    background: black;
+}
+
+.left p.forget:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.left p.or{
+    font-size: 15px;
+    width: 40px;
+    height: 30px;
+    padding-top: 10px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 96%;
+
+}
+
+.main .right{
+    text-align: center;
+}
+
+.main .right h1{
+    margin-top: 100px;
+}
+
+.right .social{
+    margin-top: 40px;
+}
+
+
+
+.social button{
+    border: none;
+    padding: 15px;
+    width: 50px;
+    font-size: 18px;
+    background: white;
+    margin-right:10px; 
+    border-radius: 50%; 
+
+}
+
+/* Effect on icons */
+
+.social .twitter{
+    color: #46b7dd;
+}
+
+.social .twitter:hover{
+    background:black ;
+    color: white;
+    cursor: pointer;
+
+}
+
+.social .facebook{
+    color: #1b0666;
+}
+
+.social .facebook:hover{
+    background:rgb(20, 20, 20) ;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.social .google{
+   
+    color: #d3470b;
+}
+
+.social .google:hover{
+    background:black ;
+    color: white;
+    cursor: pointer;
+    
+}
